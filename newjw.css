@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+:root{
+    --warnapinknya:crimson;
+    --color-bg:#0c1227;
+}
+
+
+div{
+    border: black 1px transparent;
+}
+
+/* header-start */
+.header-container{
+    display: flex;
+    padding: 0px 3%;
+    justify-content: space-between;
+    height: 70px;
+    background-color: var(--color-bg);
+    color: white;
+}
+
+.menukiri{
+    font-family: Lato;
+
+    display: flex;
+    flex-basis: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menukiri:hover{
+    cursor: pointer;
+}
+
+.headermenukiri{
+    /* padding: 20px 0px; */
+    display: flex;
+    flex-basis: 60%;
+}
+
+.brand{
+    width: 20%;
+    height: 100%;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.headermenukanan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.signin{
+    padding-left: 200px; 
+    font-family: Lato;
+}
+
+.getstarted{
+    border-radius: 20px;
+    width: 110px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1.5px solid var(--warnapinknya);
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.getstarted:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.color-primary{
+    color: var(--warnapinknya);
+}
+
+/* header end */
+
+
+/* jumbotron1 start */
+
+.jumbotron1-container{
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
+    height: 100vh;
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;    
+}
+
+.text-besar{
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 10%;
+}
+
+.text-sedang{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px 20%;
+    font-weight: 100;
+}
+
+.tombol{
+    background-color: var(--warnapinknya);
+    color: white;
+}
+
+.tombol-container{
+    padding: 10px 45%;
+}
+
+
+.mobil{
+    position: absolute;
+    top: 500px;
+    left: 24%;
+    /* overflow: hidden; */
+}
+
+.coding{
+    position: absolute;
+    top: 450px;
+    right: 13%;
+}
+
+.biru{
+    position: absolute;
+    top: 530px;
+    right: 10%;
+}
+
+.grafik{
+    position: absolute;
+    top: 610px;
+    left: 12%;
+
+}
+
+
+/* jumbotron1 end */
